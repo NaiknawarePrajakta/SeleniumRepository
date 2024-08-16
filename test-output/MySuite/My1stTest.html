@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  My1stTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>My1stTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jul 21 11:00:47 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (144 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNGXML.NewTest1.b()'><b>b</b><br>Test class: TestNGXML.NewTest1<br/>
+<a href="#Output-501705927" onClick='toggleBox("Output-501705927", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-501705927" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-501705927">
+B is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGXML.NewTest1@4961f6af</td></tr>
+<tr>
+<td title='TestNGXML.NewTest2.f()'><b>f</b><br>Test class: TestNGXML.NewTest2<br/>
+<a href="#Output-1208203046" onClick='toggleBox("Output-1208203046", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1208203046" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1208203046">
+F is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGXML.NewTest2@399c4be1</td></tr>
+<tr>
+<td title='TestNGXML.NewTest2.h()'><b>h</b><br>Test class: TestNGXML.NewTest2<br/>
+<a href="#Output-1406014249" onClick='toggleBox("Output-1406014249", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1406014249" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1406014249">
+H is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGXML.NewTest2@399c4be1</td></tr>
+<tr>
+<td title='TestNGXML.NewTest1.c()'><b>c</b><br>Test class: TestNGXML.NewTest1<br/>
+<a href="#Output-1421866327" onClick='toggleBox("Output-1421866327", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1421866327" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1421866327">
+C is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGXML.NewTest1@4961f6af</td></tr>
+<tr>
+<td title='TestNGXML.NewTest2.e()'><b>e</b><br>Test class: TestNGXML.NewTest2<br/>
+<a href="#Output-252553541" onClick='toggleBox("Output-252553541", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-252553541" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-252553541">
+E is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGXML.NewTest2@399c4be1</td></tr>
+<tr>
+<td title='TestNGXML.NewTest3.K()'><b>K</b><br>Test class: TestNGXML.NewTest3<br/>
+<a href="#Output-782505238" onClick='toggleBox("Output-782505238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-782505238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-782505238">
+K is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGXML.NewTest3@45b4c3a9</td></tr>
+<tr>
+<td title='TestNGXML.NewTest1.a()'><b>a</b><br>Test class: TestNGXML.NewTest1<br/>
+<a href="#Output-1560940633" onClick='toggleBox("Output-1560940633", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1560940633" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1560940633">
+A is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGXML.NewTest1@4961f6af</td></tr>
+<tr>
+<td title='TestNGXML.NewTest3.l()'><b>l</b><br>Test class: TestNGXML.NewTest3<br/>
+<a href="#Output-424398527" onClick='toggleBox("Output-424398527", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-424398527" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-424398527">
+L is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGXML.NewTest3@45b4c3a9</td></tr>
+<tr>
+<td title='TestNGXML.NewTest2.g()'><b>g</b><br>Test class: TestNGXML.NewTest2<br/>
+<a href="#Output-268084911" onClick='toggleBox("Output-268084911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-268084911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-268084911">
+G is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGXML.NewTest2@399c4be1</td></tr>
+<tr>
+<td title='TestNGXML.NewTest1.d()'><b>d</b><br>Test class: TestNGXML.NewTest1<br/>
+<a href="#Output-1497018177" onClick='toggleBox("Output-1497018177", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1497018177" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1497018177">
+d is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGXML.NewTest1@4961f6af</td></tr>
+<tr>
+<td title='TestNGXML.NewTest3.j()'><b>j</b><br>Test class: TestNGXML.NewTest3<br/>
+<a href="#Output-1014982340" onClick='toggleBox("Output-1014982340", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1014982340" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1014982340">
+J is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGXML.NewTest3@45b4c3a9</td></tr>
+<tr>
+<td title='TestNGXML.NewTest3.i()'><b>i</b><br>Test class: TestNGXML.NewTest3<br/>
+<a href="#Output-977552154" onClick='toggleBox("Output-977552154", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-977552154" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-977552154">
+I is running<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGXML.NewTest3@45b4c3a9</td></tr>
+</table><p>
+</body>
+</html>
